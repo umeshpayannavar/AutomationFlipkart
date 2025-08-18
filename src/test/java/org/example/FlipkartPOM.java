@@ -77,8 +77,14 @@ public class FlipkartPOM extends Androidactions {
     private WebElement homeBTN;
 
     public void homeButton(){
+
         homeBTN.click();
     }
 
+    @AndroidFindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]")
+    private  WebElement permissionat_launch;
 
+    public void Permissionatlaunch(){
+        permissionat_launch.click();
+    }
 }

@@ -24,6 +24,9 @@ public class Setup extends BASETest {
     public void testapp() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        //Permissionatlaunch
+        flipkartpom.Permissionatlaunch();
+
         // Navigating through the app
         flipkartpom.Langselect();
         flipkartpom.accountclick();
