@@ -69,5 +69,6 @@ public class Setup extends BASETest {
         flipkartpom.verifyBTN();
         flipkartpom.scrollToText("My Activity");
         flipkartpom.homeButton();
+        flipkartpom.homeButton();
     }
 }
