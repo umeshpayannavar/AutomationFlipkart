@@ -72,5 +72,31 @@ public class Setup extends BASETest {
         flipkartpom.verifyBTN();
         flipkartpom.scrollToText("My Activity");
         flipkartpom.homeButton();
+        flipkartpom.accountclick();
+        flipkartpom.orders();
+        driver.navigate().back();
+        flipkartpom.accountclick();
+        flipkartpom.wishList();
+        driver.navigate().back();
+        flipkartpom.coupons();
+        driver.navigate().back();
+        flipkartpom.helpCenter();
+        driver.navigate().back();
+        flipkartpom.scrollToText("Flipkart Plus");
+        flipkartpom.flipkartPlus();
+        driver.navigate().back();
+        flipkartpom.edit_profile();
+        driver.navigate().back();
+        flipkartpom.saved_credit();
+        driver.navigate().back();
+        flipkartpom.saved_Adress();
+        driver.navigate().back();
+        flipkartpom.select_language();
+        driver.navigate().back();
+        flipkartpom.notification_setting();
+        driver.navigate().back();
+        flipkartpom.privacy_center();
+        driver.navigate().back();
+
     }
 }
